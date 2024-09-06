@@ -66,6 +66,7 @@ body, html {
 .scroll-container {
     flex-grow: 1;
     overflow-y: auto;
+    padding-bottom: 100px;
 }
 
 .clothing-row-wrapper {
@@ -134,7 +135,6 @@ body, html {
     bottom:0;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
     border-top: 1px solid #ddd;
     background-color: #fff;
 }
@@ -199,5 +199,10 @@ a{
     overflow: hidden;
     height: 740px;
     margin-left: 10px;
+}
 
+.camera{
+    height: 70px;
+    padding: 0%;
+    margin-bottom: 2px;
 }

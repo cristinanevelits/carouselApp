@@ -203,7 +203,8 @@ a{
     max-width: 100vw;
     overflow: hidden;
     height: 740px;
-    margin-left: 10px;
+    margin-left: 40px;
+    margin-top:5px
 }
 
 .camera{

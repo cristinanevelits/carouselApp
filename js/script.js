@@ -1,4 +1,4 @@
-// Check for console functionality
+// load script
 console.log("script.js is linked");
 
 let intervalIds = [];
@@ -30,6 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // stop scrolling
 document.addEventListener('click', function() {
-    intervalIds.forEach(id => clearInterval(id)); // Clear all intervals
+    intervalIds.forEach(id => clearInterval(id)); // clear intervals
     intervalIds = []; // reset interval
 });

@@ -87,6 +87,11 @@ body, html {
 .clothing-row::-webkit-scrollbar {
     display: none;
 }
+
+.auto-scroll-row .clothing-row {
+    animation: scroll-left-right 10s linear infinite;
+}
+
 .clothing-item-2 {
     flex: 0 0 auto;
     height: 110px;
